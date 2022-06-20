@@ -8,7 +8,7 @@ const app = express(); //wrapping the new express application in app variable
 //const App= express();
 app.use(express.static(path.join(__dirname, 'files')));
 app.set('trust proxy', true);
-//const Token= require('./routes/token')
+
 app.get('/', (req, res) => {
         res.send('Welcome to API test Epam')
     })
