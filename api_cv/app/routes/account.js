@@ -7,7 +7,7 @@ const UserController = require('../controllers/User_Controller');
 
 //route for get user cv information
 router.get('/infoCv', UserController.UserCvInfo);//route for cv info
-
+router.get('/imageProfile', UserController.ImageProfile);//imageProfile
 //rourte  for check api Key connection
 //router.post('/register', [checkJWT.verificarAuth,checkJWT.verificaRol], UserController.registerUser);
 
