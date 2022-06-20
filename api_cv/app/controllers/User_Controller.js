@@ -16,7 +16,12 @@ exports.UserCvInfo = (req, res) => {
             res.status(200).json(response);
 
       } catch (err) {
-        throw err;
+          const response = {
+              "message":"Failed",
+              "Output":err
+            };
+          res.status(501).json(response);
+          
       }
     
 
