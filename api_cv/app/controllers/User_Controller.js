@@ -33,7 +33,7 @@ exports.ImageProfile = (req, res) => {
   
   const fs = require("fs");
   const path = require("path");
-  const imagepath= "../Data/profile_.png"
+  const imagepath= "../Data/image.jpeg"
  //readFileSync is synchronous
 
   try {
@@ -55,8 +55,8 @@ exports.ImageProfile = (req, res) => {
           var contentType = "text/plain";
 
           // Checking if the extension of
-          // image is '.png'
-          if (ext === ".png") {
+          // image is '.jpeg'
+          if (ext === ".jpeg") {
               contentType = "image/png";
           }
 
