@@ -1,45 +1,79 @@
 {
 	"name": "Alberto Orlando Cime Castellanos",
-	"contact": [
+	"contact": 
 		{
 			"Address": "C 32, 532 x 21 y 23, Salvador Alvarado Oriente, Merida Yucatan",
 			"Phone": "+52 (999)1-74-51-54",
 			"Email": "Orland_998@hotmail.com",
 			"Birth": "June 6th, 1998"
 		}
-	],
+	,
 	"languajes": [
 		{
-			"Languaje1": "Spanish Native Language",
-			"Languaje2": "English B1"
+			"Languaje": "Spanish Native Language"	
+		},
+		{
+			"Languaje": "English B1"
 		}
 	],
-	"summary": [
+	"summary": 
 		{
 			"Description": "Jr Web Developer specializing in Backend development and cybersecurity. Experienced with all stages of the development cycle for projects. Well-versed in programming languages including HTML5, PHP OOP, Node JS, applications pen testing and one year experience on AWS cloud. Strong background in project management and customer relations"
 			
 		}
-	],
+	,
 	"hards_skills": [
 		{
-			"skill1":"Experience in Scrum Methodology",
-			"skill2":"Strong decision maker",
-			"skill3":"Complex problem solver",
-			"skill4":"Creative design",
-			"skill5":"Innovative",
-			"skill6":"Service-focused"
-
+			"Nameskill":"Experience in Scrum Methodology",
+			"level": "Novice",
+			"porcent":"60"
+		},
+		{
+			"Nameskill":"Aws",
+			"level": "Intermediate",
+			"porcent":"80"
+		},
+		{
+			"Nameskill":"JavaScript",
+			"level": "Novice",
+			"porcent":"60"
+		},
+		{
+			"Nameskill":"Html",
+			"level": "Novice",
+			"porcent":"60"
+		},
+		{
+			"Nameskill":"Fortinet",
+			"level": "Novice",
+			"porcent":"60"
+			
+		},	
+		{
+			"Nameskill":"Cibersecurity",
+			"level": "Novice",
+			"porcent":"60"
 		}
+		
 	],
 	"soft_skills": [
 		{
-			"skill1":"Work team",
-			"skill2":"Responsible",
-			"skill3":"Dedicated",
-			"skill4":"Creative",
-			"skill5":"Friendly",
-			"skill6":"Studious"
-
+			"skill":"Work team"	
+		},
+		{
+			"skill":"Responsible"
+		},
+		{
+			"skill":"Dedicated"
+		},
+		{
+			"skill":"Creative"
+		},
+		{
+			"skill":"Friendly"
+		},
+		{
+			"skill":"Studious"
 		}
 	],
 	"experience": [
@@ -49,10 +83,16 @@
 			"Position": "Jr. Technological Security Analist",
 			"responsabilities": [
 				{
-					"Responsibility1":"Implementation of basic controls in security architecture base on the AWS cloud, for the development of banking applications.",
-					"Responsibility2":"Creation of VPCs, creation of public and private networks,Nat Gateways, entry and exit rules in security groups and privatization of network traffic on AWS cloud.",
-					"Responsibility3":"mplementation of basic security controls, focused on secure development",
-					"Responsibility4":"Best practices in the AWS IAM service, for managing access, policies, and groups"
+					"Responsibility":"Implementation of basic controls in security architecture base on the AWS cloud, for the development of banking applications."
+				},
+				{
+					"Responsibility":"Creation of VPCs, creation of public and private networks,Nat Gateways, entry and exit rules in security groups and privatization of network traffic on AWS cloud."
+				},
+				{
+					"Responsibility":"mplementation of basic security controls, focused on secure development"
+				},
+				{
+					"Responsibility":"Best practices in the AWS IAM service, for managing access, policies, and groups"
 				}
 
 			]
@@ -64,10 +104,17 @@
 			"Position": "Jr. Backend Developer",
 			"responsabilities": [
 				{
-					"Responsibility1":"Creation of Rest Apis using NodeJs and Express",
-					"Responsibility2":"Using JWT for authentication",
-					"Responsibility3":"Using the MVC Design Pattern",
-					"Responsibility4":"API RestFull implementation on AWS cloud"
+					"Responsibility":"Creation of Rest Apis using NodeJs and Express"
+					
+				},
+				{
+					"Responsibility":"Using JWT for authentication"
+				},
+				{
+					"Responsibility":"Using the MVC Design Pattern"
+				},
+				{
+					"Responsibility":"API RestFull implementation on AWS cloud"
 				}
 
 			]
@@ -79,16 +126,21 @@
 			"Position": "Jr. Backend Developer",
 			"responsabilities": [
 				{
-					"Responsibility1":"Creation of Rest Apis using NodeJs and Express",
-					"Responsibility2":"Using the MVC Design Pattern",
-					"Responsibility3":"Use of Canary Tokens"
+					"Responsibility":"Creation of Rest Apis using NodeJs and Express"	
+				},
+				{
+					"Responsibility":"Using the MVC Design Pattern"
+				},
+				{
+					"Responsibility":"Use of Canary Tokens"
 				}
+			
 
 			]
 			
 		}
 	],
-	"education": [
+	"education": 
 		{
 			"UniversityName": "Universidad Tecnologica Metropolitana",
 			"Carrer": "Information Technology Engineer",
@@ -96,11 +148,13 @@
 			
 		}
 
-	],
+	,
 	"awards": [
 		{
-			"award1":"Recognition for creditor fact to one of the best averages",
-			"award2":"Degree by project"
+			"award":"Recognition for creditor fact to one of the best averages"	
+		},
+		{
+			"award":"Degree by project"
 		}
 	]
 
